@@ -1,7 +1,6 @@
 import React from "react";
 
 export const ContactInfo = ({icon, text}) => {
-  console.log(text);
   return (
     <>
       {icon}

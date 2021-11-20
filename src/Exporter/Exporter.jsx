@@ -3,8 +3,11 @@ export { Courses } from "../Courses/Courses";
 export { Login } from "../Login/Login";
 export { Register } from "../Register/Register";
 export { NavBar } from "../NavBar/NavBar";
+export { NavBarStyles } from "../NavBar/NavBarStyles"
 export { Footer } from "../Footer/Footer";
 export { Library } from "../Library/Library"
 export { SocialComponent } from "../Footer/SocialComponent/SocialComponent"
 export { style } from "../Footer/FooterStyles"
 export { ContactInfo } from "../Footer/Contact/ContactInfo"
+export { CardComponent } from "../Card/CardComponent"
+export { CardStyles } from "../Card/CardStyles"
