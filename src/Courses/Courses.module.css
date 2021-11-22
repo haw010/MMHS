@@ -1,0 +1,16 @@
+.rightPanel {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.title {
+  padding-bottom: 100px;
+  padding-left: 50px;
+  font-size: calc(1.5em + 1vw);
+}
+
+.wrapper {
+  padding-top: 10px;
+  padding-left: 50px;
+  margin-top: 40px;
+}
