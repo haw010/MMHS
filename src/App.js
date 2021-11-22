@@ -9,7 +9,8 @@ import {
   NavBar,
   Register,
   Footer,
-  Library
+  Library,
+  AddCourse
 } from "./Exporter/Exporter";
 
 const App = () => {
