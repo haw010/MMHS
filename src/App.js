@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Activities,
   Courses,
+  Apply,
   Login,
   NavBar,
   Register,
@@ -22,6 +23,7 @@ const App = () => {
         <Route exact path="/register" component={Register} />
         <Route exact path="/courses" component={Courses} />
         <Route exact path="/library" component={Library} />
+        <Route exact path="/apply" component={Apply} />
       </Switch>
       <Footer />
     </div>

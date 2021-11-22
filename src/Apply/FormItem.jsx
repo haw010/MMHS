@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './Courses.module.css'
+import classes from './Apply.module.css'
 import { Form, Radio, Input, Select } from 'antd'
 
 const FormItem = ({ label, name }) => {
