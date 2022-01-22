@@ -34,54 +34,54 @@ export const Footer = () => {
           -Thang Paa
         </Title>
       </Col>
-      <Col lg={6} md={10} sm={12} xs={24} style={style.socialMediaCol}>
+
+      <Col lg={5} md={10} sm={12} xs={24} style={style.socialMediaColContainer}>
         <Title level={3} style={style.footerTitle}>
           Keep Connected
         </Title>
-        <SocialComponent
-          name="Facebook"
-          link="https://www.facebook.com"
-          image={facebookImage}
-          classes={classes.footer_icon}
-          key="FacebookFooter"
-        />
-        <SocialComponent
-          name="Instagram"
-          link="https://www.instagram.com"
-          image={instagramImage}
-          classes={classes.footer_icon}
-          key="InstagramFooter"
-        />
-        <SocialComponent
-          name="Twitter"
-          link="https://www.twitter.com"
-          image={twitterImage}
-          classes={classes.footer_icon}
-          key="TwitterFooter"
-        />
-        <SocialComponent
-          name="Youtube"
-          link="https://www.youtube.com"
-          image={youtubeImage}
-          classes={classes.footer_icon}
-          key="YoutubeFooter"
-        />
+        <div style={style.socialMediaCol} >
+          <SocialComponent
+            link="https://www.facebook.com"
+            image={facebookImage}
+            classes={classes.footer_icon}
+            key="FacebookFooter"
+          />
+          <SocialComponent
+            link="https://www.instagram.com"
+            image={instagramImage}
+            classes={classes.footer_icon}
+            key="InstagramFooter"
+          />
+          <SocialComponent
+            link="https://www.twitter.com"
+            image={twitterImage}
+            classes={classes.footer_icon}
+            key="TwitterFooter"
+          />
+          <SocialComponent
+            link="https://www.youtube.com"
+            image={youtubeImage}
+            classes={classes.footer_icon}
+            key="YoutubeFooter"
+          />
+        </div>
       </Col>
-      <Col lg={6} md={10} sm={12} xs={24} style={style.contactUsCol}>
+      
+      <Col lg={8} md={10} sm={12} xs={24} style={style.contactUsCol}>
         <Col>
           <Title level={3} style={style.footerTitle}>
             Contact Information
           </Title>
           <div style={style.contactUsText}>
             <ContactInfo
-              icon={<HomeFilled style={{ color: "white" }}/>}
+              icon={<HomeFilled style={{ color: "white" }} />}
               text={dummyText}
             />
           </div>
 
           <div style={style.contactUsText}>
             <ContactInfo
-              icon={<PhoneFilled style={{ color: "white" }}/>}
+              icon={<PhoneFilled style={{ color: "white" }} />}
               text={dummyText}
             />
           </div>

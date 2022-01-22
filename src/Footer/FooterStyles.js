@@ -13,14 +13,22 @@ export const style = {
     marginTop: "1.5rem",
     color: "white",
   },
-  socialMediaCol: { display: "flex", flexDirection: "column", margin: "0 1%" },
+  socialMediaColContainer: {
+    display: "flex",
+    flexDirection: "column",
+    margin: "0 1%",
+    alignItems : "center"
+  },
+  socialMediaCol: {
+    display: "flex",
+  },
   contactUsCol: { display: "flex", flexDirection: "column", margin: "0 1%" },
   contactUsText: {
     display: "flex",
     alignItems: "baseline",
     marginBottom: "10px",
   },
-  footerTitle : {
-      color : "white"
-  }
+  footerTitle: {
+    color: "white",
+  },
 };

@@ -5,13 +5,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Activities,
   Courses,
+  Apply,
   Login,
   NavBar,
   Register,
   Footer,
   Library,
-  AddCourse
+  EditAddCourse
 } from "./Exporter/Exporter";
+import { AdminDashboard } from "./Admin Dashboard/AdminDashboard";
+
 
 const App = () => {
   return (
@@ -23,6 +26,9 @@ const App = () => {
         <Route exact path="/register" component={Register} />
         <Route exact path="/courses" component={Courses} />
         <Route exact path="/library" component={Library} />
+        <Route exact path="/apply" component={Apply} />
+        <Route exact path="/modifyCourse" component={EditAddCourse} />
+        <Route exact path="/admin" component={AdminDashboard} />
       </Switch>
       <Footer />
     </div>
